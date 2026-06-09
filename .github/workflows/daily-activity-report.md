@@ -59,7 +59,7 @@ all invalid PRs into a dedicated section.
 
 For each PR, inspect the PR description for **both**:
 
-- a screenshot link of the AI Skill Fest dashboard, and
+- a link to a screenshot/image of the AI Skill Fest dashboard, and
 - proof of playlist completion from the AI Skill Navigator.
 
 If either is missing, flag the PR as ⚠️ "Missing Proof" and list it in the
@@ -102,7 +102,8 @@ For each, report the PR title, owner, and the reason it is blocked.
 
 Create exactly one issue using the `create-issue` safe output.
 
-- **Title body**: `{{current_date}}` (the configured title prefix already adds
+- **Title suffix** (the dynamic part appended after the configured prefix):
+  `{{current_date}}` (the configured title prefix already adds
   "📊 Daily AI Repo Activity Report - ", so the issue title becomes
   `📊 Daily AI Repo Activity Report - YYYY-MM-DD`).
 - Use GitHub-flavored markdown. Start nested report headings at `###`. Wrap long
